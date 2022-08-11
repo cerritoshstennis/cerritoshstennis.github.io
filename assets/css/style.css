@@ -1114,7 +1114,7 @@ label {
 }
 
 .main {
-    margin-top: -7rem;
+    margin-top: -10rem;
 }
 
 @media all and (min-width:992px) {
@@ -1264,6 +1264,7 @@ label {
     padding-bottom: 0;
     border-bottom: 1px solid rgba(255, 255, 255, .1);
     z-index: 999;
+    height: 150px;
 }
 
 .navbar.fixed-top {
@@ -1429,7 +1430,7 @@ button.navbar-toggler:focus {
     padding-top: 280px;
     padding-bottom: 180px;
     background-position: center center !important;
-    background-size: cover !important;
+    background-size: 1500px !important;
     background-repeat: no-repeat !important;
     display: flex;
     align-items: center;
@@ -5319,4 +5320,12 @@ body.rtl-mode .price-wrapper {
 
 .home-3 .blog-title a:hover {
     color: #eeb504;
+}
+#customchscolorhyper ::before {
+    color: #FCB426;
+
+}
+#customchscolorhyper ::after {
+    color: #000;
+    text-decoration: dotted;
 }
